@@ -24,3 +24,11 @@ input[type="submit"] {
     font-size: 2em;
     width: 100%;
 }
+
+.invalid {
+    margin: 4px 0 10px 0;
+    color: red;
+}
+.valid {
+    display: none;
+}

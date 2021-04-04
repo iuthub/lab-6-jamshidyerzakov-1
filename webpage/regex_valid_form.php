@@ -37,7 +37,9 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
 			<dd><input type="text" name="pattern" value="<?= $pattern ?>"></dd>
 
 			<dt>Text</dt>
-			<dd><input type="text" name="text" value="<?= $text ?>"></dd>
+			<dd>
+                <textarea name="text" id="" cols="30" rows="10"><?= $text ?></textarea>
+            </dd>
 
 			<dt>Replace Text</dt>
 			<dd><input type="text" name="replaceText" value="<?= $replaceText ?>"></dd>
